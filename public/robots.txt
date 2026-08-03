@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://sakshamjain.dev/sitemap.xml
+Sitemap: https://sakshamjain.online/sitemap.xml

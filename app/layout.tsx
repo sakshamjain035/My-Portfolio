@@ -14,7 +14,7 @@ const outfit = Outfit({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sakshamjain.dev";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sakshamjain.online";
 
 export const viewport: Viewport = {
   themeColor: "#050711",

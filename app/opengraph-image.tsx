@@ -154,7 +154,7 @@ export default async function Image() {
               border: "1px solid rgba(255, 255, 255, 0.1)",
             }}
           >
-            sakshamjain.dev
+            sakshamjain.online
           </div>
         </div>
       </div>
