@@ -119,6 +119,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} dark scroll-smooth`}>
       <head>
+        <meta name="google-site-verification" content="QD3vItaH1HkrORUwU0cdFeT51cm5QK6j3TPSEbZni_g" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
