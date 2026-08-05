@@ -1,6 +1,7 @@
 "use client";
 
-import { Cpu, ArrowUp } from "lucide-react";
+import Link from "next/link";
+import { Cpu, ArrowUp, Search } from "lucide-react";
 import { PERSONAL_INFO } from "@/lib/constants";
 
 export default function Footer() {
@@ -31,10 +32,20 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <p className="text-xs text-slate-500 font-light text-center">
-          © {new Date().getFullYear()} {PERSONAL_INFO.name}. Architecting AI Growth & WebGL Experiences.
-        </p>
+        {/* SEO Hub Navigation & Copyright */}
+        <div className="flex flex-col items-center gap-2 text-center">
+          <Link
+            href="/seo"
+            className="inline-flex items-center gap-2 text-xs font-semibold text-cyan-400 hover:text-cyan-300 transition-colors bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20"
+          >
+            <Search className="w-3.5 h-3.5" />
+            <span>Saksham SEO Knowledge Base (25 Guides)</span>
+          </Link>
+
+          <p className="text-xs text-slate-500 font-light">
+            © {new Date().getFullYear()} {PERSONAL_INFO.name}. Architecting AI Growth & WebGL Experiences.
+          </p>
+        </div>
 
         {/* Back to Top */}
         <button
