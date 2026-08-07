@@ -4,6 +4,7 @@ import AiEngineSection from "@/components/sections/AiEngineSection";
 import AiAuditTool from "@/components/sections/AiAuditTool";
 import SkillsSection from "@/components/sections/SkillsSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
+import FaqSection from "@/components/sections/FaqSection";
 import ContactSection from "@/components/sections/ContactSection";
 import Footer from "@/components/ui/Footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <AiAuditTool />
       <SkillsSection />
       <ProjectsSection />
+      <FaqSection />
       <ContactSection />
       <Footer />
     </main>
